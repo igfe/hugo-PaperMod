@@ -1,10 +1,10 @@
 {{- define "main" }}
 
-<article class="{{ if eq .Section "data" }}data-post{{ else }}post-single{{ end }}">
+<article class="{{ if eq .Section data }}data-post{{ else }}post-single{{ end }}">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
-      {{ if eq .Section "post-single" }}
+      {{ if ne .Section "data" }}
         {{ .Title }}
       {{ end }}
       {{- if .Draft }}
