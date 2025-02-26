@@ -64,3 +64,15 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.data-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .chart-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
