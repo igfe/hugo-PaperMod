@@ -71,6 +71,14 @@ pre:hover .copy-code {
     align-items: center;
     text-align: center;
   }
+
+/* main.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+      
+} */
   
   .chart-container {
     max-width: 100%;
