@@ -1,6 +1,7 @@
 {{- define "main" }}
 
-<article class="{{ if eq .Section data }}data-post{{ else }}post-single{{ end }}">
+<article class={{ if eq .Section "data" }}"data-post"{{ else }}"post-single"{{ end }}>
+  {{/*  <h1>{{ .Section }}</h1>  */}}
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">

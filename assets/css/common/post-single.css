@@ -407,3 +407,7 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+#top > main > article > div > p > a {
+    color: #578bc3; /* Bootstrap primary blue */
+}
