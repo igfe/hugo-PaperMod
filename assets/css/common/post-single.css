@@ -408,6 +408,6 @@ img.in-text {
     margin: auto;
 }
 
-#top > main > article > div > p > a {
+#top > main > article a {
     color: #578bc3; /* Bootstrap primary blue */
 }
